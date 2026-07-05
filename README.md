@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -77,8 +78,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 <!---LeetCode Topics End-->
