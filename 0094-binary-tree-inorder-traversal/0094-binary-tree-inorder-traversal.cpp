@@ -16,21 +16,28 @@ public:
     {
         vector<int> ans;
 
+        // Start from root
         TreeNode* curr = root;
 
         while(curr != NULL)
         {
-            // If there is no left child,
-            // process current node and move right
+            // Case 1:
+            // No left child.
+            // We can directly visit this node.
             if(curr->left == NULL)
             {
                 ans.push_back(curr->val);
 
+                // Move to right subtree
                 curr = curr->right;
             }
+
+            // Case 2:
+            // Left subtree exists.
             else
             {
                 // Find inorder predecessor
+                // (rightmost node of left subtree)
                 TreeNode* prev = curr->left;
 
                 while(prev->right != NULL &&
@@ -39,24 +46,27 @@ public:
                     prev = prev->right;
                 }
 
-                // Thread not created yet
+                // First time visiting this subtree.
+                // Create a temporary thread.
                 if(prev->right == NULL)
                 {
-                    // Create temporary connection
                     prev->right = curr;
 
+                    // Explore left subtree
                     curr = curr->left;
                 }
+
+                // Second time we came back.
                 else
                 {
-                    // Thread already exists
-
-                    // Remove it
+                    // Remove temporary thread
                     prev->right = NULL;
 
-                    // Process current node
+                    // Left subtree finished,
+                    // now visit current node
                     ans.push_back(curr->val);
 
+                    // Move to right subtree
                     curr = curr->right;
                 }
             }
@@ -65,7 +75,7 @@ public:
         return ans;
     }
 };
-
+ 
 /*
 class Solution {
 public:
