@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [missing-and-duplicate-number](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/missing-and-duplicate-number) |
 ## Hash Table
 |  |
 | ------- |
@@ -50,6 +51,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0048-rotate-image) |
+## Bit Manipulation
+|  |
+| ------- |
+| [missing-and-duplicate-number](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/missing-and-duplicate-number) |
 ## Stack
 |  |
 | ------- |
@@ -85,3 +90,4 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 <!---LeetCode Topics End-->
+
