@@ -1,77 +1,76 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
-    int widthOfBinaryTree(TreeNode* root) {
-        // Empty tree has width 0
-if(root == NULL)
-{
-    return 0;
-}
 
-long long ans = 0;
-
-// Queue stores (Node, Complete Binary Tree Index)
-queue<pair<TreeNode*, long long>> q;
-
-// Root starts with index 0
-q.push({root,0});
-
-while(!q.empty())
-{
-    // Number of nodes in current level
-    int size = q.size();
-
-    // First index of current level (used for normalization)
-    long long minIndex = q.front().second;
-
-    // Stores normalized index of first node
-    long long first = 0;
-
-    // Stores normalized index of last node
-    long long last = 0;
-
-    // Traverse one complete level
-    for(int i=0;i<size;i++)
+    int widthOfBinaryTree(TreeNode* root)
     {
-        TreeNode* temp = q.front().first;
+        // Tree hi nahi hai toh width bhi 0
+        if(root == NULL)
+        {
+            return 0;
+        }
 
-        // Normalize index to avoid overflow
-        long long index = q.front().second - minIndex;
+        // Maximum width store karega
+        long long ans = 0;
 
-        q.pop();
+        // Queue me node ke saath uska Complete Binary Tree index bhi store karenge
+        queue<pair<TreeNode*, long long>> q;
 
-        // Save first node's index
-        if(i==0)
-            first=index;
+        // Root hamesha index 0 se start karega
+        q.push({root,0});
 
-        // Save last node's index
-        if(i==size-1)
-            last=index;
+        // Normal Level Order Traversal
+        while(!q.empty())
+        {
+            // Current level me kitne nodes hain
+            int size = q.size();
 
-        // Left child gets 2i-1
-        if(temp->left!=NULL)
-            q.push({temp->left,2*index+1});
+            // Current level ka pehla index
+            // Isko subtract karenge taaki bade numbers na bane
+            long long minIndex = q.front().second;
 
-        // Right child gets 2i+1
-        if(temp->right!=NULL)
-            q.push({temp->right,2*index+2});
-    }
+            // Level ke first aur last node ke normalized indices
+            long long first = 0;
+            long long last = 0;
 
-    // Width = Last Index - First Index + 1
-    ans=max(ans,last-first+1);
-}
+            // Current level ke saare nodes process karo
+            for(int i=0;i<size;i++)
+            {
+                TreeNode* temp = q.front().first;
 
-// Return maximum width
-return (int)ans;
+                // Current node ka normalized index
+                long long index = q.front().second - minIndex;
+
+                q.pop();
+
+                // Pehla node mila toh iska index yaad rakho
+                if(i==0)
+                {
+                    first = index;
+                }
+
+                // Last node tak update karte jao
+                if(i==size-1)
+                {
+                    last = index;
+                }
+
+                // Left child ka Complete Binary Tree index
+                if(temp->left != NULL)
+                {
+                    q.push({temp->left,2*index+1});
+                }
+
+                // Right child ka Complete Binary Tree index
+                if(temp->right != NULL)
+                {
+                    q.push({temp->right,2*index+2});
+                }
+            }
+
+            // Current level ki width nikal lo
+            ans = max(ans,last-first+1);
+        }
+
+        return (int)ans;
     }
 };
