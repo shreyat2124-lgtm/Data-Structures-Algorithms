@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
+| [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 ## Tree
 |  |
 | ------- |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
+| [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
+| [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
@@ -92,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
+| [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 ## Breadth-First Search
 |  |
 | ------- |
