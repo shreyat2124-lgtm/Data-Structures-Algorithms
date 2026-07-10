@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
 | [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 | [root-to-target-path](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/root-to-target-path) |
+| [children-sum-property](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/children-sum-property) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
 | [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 | [root-to-target-path](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/root-to-target-path) |
+| [children-sum-property](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/children-sum-property) |
 ## Binary Tree
 |  |
 | ------- |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
 | [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 | [root-to-target-path](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/root-to-target-path) |
+| [children-sum-property](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/children-sum-property) |
 ## Backtracking
 |  |
 | ------- |
