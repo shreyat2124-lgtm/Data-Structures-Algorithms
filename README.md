@@ -72,6 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [0285-inorder-successor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-successor-in-bst) |
+| [0285-inorder-predecessor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-predecessor-in-bst) |
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
@@ -96,12 +98,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
+| [0285-inorder-successor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-successor-in-bst) |
+| [0285-inorder-predecessor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-predecessor-in-bst) |
 | [0545-binary-tree-boundary-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0545-binary-tree-boundary-traversal) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
 | [preorder-inorder-postorder-traversal](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/preorder-inorder-postorder-traversal) |
 | [root-to-target-path](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/root-to-target-path) |
 | [children-sum-property](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/children-sum-property) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0285-inorder-successor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-successor-in-bst) |
+| [0285-inorder-predecessor-in-bst](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0285-inorder-predecessor-in-bst) |
 ## Backtracking
 |  |
 | ------- |
