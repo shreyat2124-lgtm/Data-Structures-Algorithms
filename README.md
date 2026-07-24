@@ -121,6 +121,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/0199-binary-tree-right-side-view) |
 | [binary-tree-bottom-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-bottom-view) |
 | [binary-tree-top-view/](https://github.com/shreyat2124-lgtm/Data-Structures-Algorithms/tree/master/binary-tree-top-view) |
-## Graphs
-| [207-course-schedule](https://leetcode.com/problems/course-schedule/submissions/2078924123)|
+
 <!---LeetCode Topics End-->
