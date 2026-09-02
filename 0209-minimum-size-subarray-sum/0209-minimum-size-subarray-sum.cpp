@@ -1,23 +1,25 @@
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
-        int left=0,right=0; int minl=INT_MAX; unordered_set<int> st; int sum=0;
 
-        for(right=0;right<nums.size();right++){
-        st.insert(nums[right]);
-        sum+=nums[right];
+        int left = 0;
+        int sum = 0;
+        int ans = INT_MAX;
+        for(int right = 0; right < nums.size(); right++) {
+            sum += nums[right];
+            // Window is valid when sum >= target.
+            // keep shrinking while it is still valid.
+            while(sum >= target) {
 
-        while(sum>=target){
-        minl=min(minl,right-left+1);
-        st.erase(nums[left]);
-        sum -= nums[left];
-        left++;
+                ans = min(ans, right - left + 1);
+                sum -= nums[left];
+                left++;
+            }
         }
-        
-        }
-        if(minl == INT_MAX)
-        return 0;
-        return minl;
+
+        if(ans == INT_MAX)
+            return 0;
+
+        return ans;
     }
-
 };
