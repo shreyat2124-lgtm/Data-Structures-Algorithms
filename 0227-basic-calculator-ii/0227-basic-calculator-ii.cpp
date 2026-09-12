@@ -2,40 +2,42 @@ class Solution {
 public:
     int calculate(string s) {
         stack<int> st;
-        long long currentNumber = 0;
+        int num = 0;
         char op = '+';
 
-        for (int i = 0; i < s.length(); ++i) {
-            char ch = s[i];
-
-            if (isdigit(ch)) {
-                currentNumber = currentNumber * 10 + (ch - '0');
+        for(int i = 0; i < s.size(); i++) {
+            if(isdigit(s[i])) {
+                num = num * 10 + (s[i] - '0');
             }
 
-            if ((!isdigit(ch) && ch != ' ') || i == s.length() - 1) {
-                if (op == '+') {
-                    st.push(currentNumber);
-                } else if (op == '-') {
-                    st.push(-currentNumber);
-                } else if (op == '*') {
-                    int top = st.top(); st.pop();
-                    st.push(top * currentNumber);
-                } else if (op == '/') {
-                    int top = st.top(); st.pop();
-                    st.push(top / currentNumber);
+            if((!isdigit(s[i]) && s[i] != ' ') || i == s.size() - 1) {
+                if(op == '+')
+                    st.push(num);
+                else if(op == '-')
+                    st.push(-num);
+                else if(op == '*') {
+                    int x = st.top();
+                    st.pop();
+                    st.push(x * num);
+                }
+                else if(op == '/') {
+                    int x = st.top();
+                    st.pop();
+                    st.push(x / num);
                 }
 
-                op = ch;
-                currentNumber = 0;
+                op = s[i];
+                num = 0;
             }
         }
 
-        int totalSum = 0;
-        while (!st.empty()) {
-            totalSum += st.top();
+        int ans = 0;
+
+        while(!st.empty()) {
+            ans += st.top();
             st.pop();
         }
 
-        return totalSum;
+        return ans;
     }
 };
